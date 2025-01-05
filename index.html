@@ -9,8 +9,11 @@
             font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #F8F1E5;
-        }
+            
+    background: linear-gradient(to bottom, #243B6B, #A8C686);
+    color: #F8F1E5;
+}
+        
         table {
             width: 100%;
             border-collapse: collapse;
@@ -22,14 +25,13 @@
         }
         th {
             background-color: #5AA9A3;
-            color: white;
+            color: #F8F1E5;
         }
         h1 {
             font-family:Verdana, Geneva, Tahoma, sans-serif;
             text-align: center;
             padding: 20px;
-            background-color: #A8C686;
-            color: white;
+            color: #F8F1E5;
             margin: 0;
         }
         .image-cell {
@@ -38,6 +40,29 @@
         .image-cell img {
             border-radius: 10px;
         }
+        table tr:hover {
+    background-color: #a8c68634;
+    color: white;
+}
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #A63A3A; 
+    color: #fff; 
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.back-button:hover {
+    background-color: #D4A017; 
+    transform: scale(1.05);
+}
+
     </style>
 </head>
 <body>
@@ -66,20 +91,20 @@
             <th colspan="2">Герои</th>
         </tr>
         <tr>
-        <td>Чихиро</td>
+        <td><a href="chihiro.html">Чихиро</a></td>
         <td>Смело и изобретателно младо момиче.</td>
         </tr>
         <tr>
-         <td>Хаку</td>
+         <td><a href="haku.html">Хаку</a></td>
          <td> Мистериозно момче с магически способности.</td>
          </tr>
         <tr>
-        <td>Юбаба</td>
+        <td><a href="yubaba.html">Юбаба</a></td>
         <td>Мощна вещица, която управлява банята.</td>
         </tr>
         <tr>
-        <td>No-Face</td>
-        <td>Самотен дух, който развива връзка с Чихиро.</td>
+            <td><a href="noface.html">No face</a></td>
+        <td>Самотен дух, който се сприятелява с Чихиро.</td>
         </tr>
     </table>
 </body>
